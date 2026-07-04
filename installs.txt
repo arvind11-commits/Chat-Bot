@@ -1,0 +1,5 @@
+pip install streamlit 
+pip install huggingface_hub
+
+//run this file
+streamlit run chatbot_app.py
