@@ -12,6 +12,7 @@ A sleek AI chatbot built with **Streamlit** and powered by **Meta's Llama 3.1 8B
 ## 🖥️ Preview
 
 ![Aarva AI Preview](preview1.png)
+![](preview2.png)
 
 ---
 
