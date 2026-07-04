@@ -11,7 +11,7 @@ A sleek AI chatbot built with **Streamlit** and powered by **Meta's Llama 3.1 8B
 
 ## 🖥️ Preview
 
-> Dark blackish-gray UI with clean white chat bubbles, smooth message flow, and a minimal header.
+![Aarva AI Preview](preview1.png)
 
 ---
 
