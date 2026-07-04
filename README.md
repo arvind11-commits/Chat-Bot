@@ -46,7 +46,7 @@ Open `chatBot.py` and replace the API key with your HF Token :
 
 replace at line 134 of `chatBot.py`
 ```python
-client = InferenceClient(api_key="your_hf_api_key_here")
+client = InferenceClient(api_key="HF_TOKEN")
 ```
 
 > 🔑 Get your free API key at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
@@ -79,27 +79,7 @@ streamlit
 huggingface_hub
 ```
 
----
 
-## 🔐 Important — API Key Safety
-
-> **Never push your real API key to GitHub.**
-
-Before pushing, either:
-- Replace the key with a placeholder string
-- Use an environment variable:
-
-```python
-import os
-client = InferenceClient(api_key=os.environ.get("HF_API_KEY"))
-```
-
-Then set it in your terminal:
-```bash
-export HF_API_KEY="your_hf_api_key_here"
-```
-
-Or use a `.env` file with the `python-dotenv` package and add `.env` to your `.gitignore`.
 
 ---
 
@@ -111,11 +91,7 @@ Or use a `.env` file with the `python-dotenv` package and add `.env` to your `.g
 | Provider | Hugging Face Inference API |
 | Max tokens | 300 |
 
----
 
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
 
 ---
 
